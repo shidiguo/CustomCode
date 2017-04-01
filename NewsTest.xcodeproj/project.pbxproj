@@ -207,8 +207,8 @@
 				TargetAttributes = {
 					AABA39671E8F8A9000CE063B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VTM5GFAEWL;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 44WBT78N4D;
+						ProvisioningStyle = Manual;
 					};
 					AABA39801E8F8A9000CE063B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -425,11 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VTM5GFAEWL;
+				DEVELOPMENT_TEAM = 44WBT78N4D;
 				INFOPLIST_FILE = NewsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AiRongRuanJian.NewsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echinacoop.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd9b33fe-7bba-485f-8775-e534bcf5618b";
+				PROVISIONING_PROFILE_SPECIFIER = develop_profile;
 			};
 			name = Debug;
 		};
@@ -437,11 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VTM5GFAEWL;
+				DEVELOPMENT_TEAM = 44WBT78N4D;
 				INFOPLIST_FILE = NewsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AiRongRuanJian.NewsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.echinacoop.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd9b33fe-7bba-485f-8775-e534bcf5618b";
+				PROVISIONING_PROFILE_SPECIFIER = develop_profile;
 			};
 			name = Release;
 		};
